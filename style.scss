@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  color: #e4eef1;
+  background-color: #ff69b4;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  div {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 40vw;
+    img {
+      width: 4rem;
+    }
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    width: 60vw;
+    justify-content: space-evenly;
+    padding-right: 10px;
+  }
+}
+
+.sectionCenter {
+  background-color: #ffd9ec;
+}
+
+.div1 {
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  img {
+    width: 14rem;
+    height: 12rem;
+    padding-right: 20px;
+  
+  }
+  p{
+    width: 53vw;
+  }
+}
+
+.div2{
+  height: 20vh;
+  display: flex;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  img{
+    width: 19rem;
+  }
+  p{
+    width: 55vw;
+    font-size: 1rem;
+  }
+}
+
+.div3{
+  display:flex;
+  height: 35vh;
+  justify-content: space-evenly;
+  align-items: center;
+  img{
+    width: 11rem;
+    height: 11rem;
+  }
+}
+
+.sectionFooter{
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: space-between;
+  background-color: #FF69B4;
+  nav{
+    padding-top: 10px;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    img{
+      width: 3rem
+    }
+  }
+  div{
+    ul{
+      width: 50vh;
+      display:flex;
+      list-style: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.8rem;
+      color: #e4eef1;
+    }
+  }
+  .teste{
+    width: 5rem;
+    padding-right: 20px;
+   }
+}
